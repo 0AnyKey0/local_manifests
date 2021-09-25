@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="mi-sdm439"
-           fetch="https://github.com/mi-sdm439"
+  <remote  name="0AnyKey0"
+           fetch="https://github.com/0AnyKey0"
            revision="lineage-18.1" />
 
  <!-- Replacements -->
@@ -12,6 +12,7 @@
 
  <!-- Kernels -->
   <!-- Just use whatever you want -->
+  <project path="kernel/xiaomi/sdm439"         name="RALegacy_kernel_sdm439"               groups="device" remote="mi-sdm439"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/sdm439-common"  name="android_device_xiaomi_sdm439-common"  groups="device" remote="mi-sdm439"/>
